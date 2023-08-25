@@ -1,0 +1,57 @@
+.body
+{
+    position: relative;
+    background-color: #beb8b8;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    border: 1px solid #f2f2f2;
+    padding: 1rem;
+}
+
+.container
+{
+    margin:auto 20%;
+ 
+    background-color: #ffffff;
+    
+}
+
+.form input
+{
+    align-self: center;
+    outline: none;
+    padding: 0.5rem 1rem;
+    width: 30%;
+    text-align: center;
+}
+
+.button
+{
+     align-self: center;
+     padding: 1rem 2rem;
+     margin-top: 1rem;
+    background-color: #1a91f0;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+     
+}
+
+textarea{
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    height:6rem;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+    align-self: center;
+  }
+
